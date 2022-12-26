@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body, .html {
+    background-color: rgba(226, 224, 224, 0.783);
+}
+
+.container {
+    padding: 2em;
+}
+
+.top-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-navigation-left {
+    display: flex;
+    align-items: center;
+
+}
+
+.top-navigation-left img {
+    width: 80px;
+    border-radius: 50%;
+    padding-right: 5px;
+}
+.top-navigation-links {
+    display: flex;
+    gap: 1.5em;
+}
+
+.top-navigation-links a {
+    text-decoration: underline;
+    color: black;
+    display: flex;
+    gap: 1em;
+}
+
+.top-navigation-right {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.top-navigation-right a {
+    text-decoration: underline;
+    color: black;
+}
+
+.top-navigation-right button {
+    border: 1px solid black;
+    background-color: white;
+    width: 100px;
+    padding: 0.5em;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: none;
+    font-weight: normal;
+}
+
+.courses {
+display: flex;
+}
+
+.budget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 100%;
+}
+
+.budget-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.credit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 100%;
+}
+
+
+.credit-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 100%;
+}
+
+
+
+.stocks-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+img {
+    width: 500px;
+    padding-right: 1em;
+}
+
+
+
+button {
+    border: 1px solid black;
+    background-color: rgba(169, 216, 168, 0.623);
+    width: 200px;
+    padding: 0.5em;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-weight: bold;
+    
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3em;
+   
+
+   
+}
+
+
+
+form {
+    width: 100%;
+    display: flex;
+    padding-top: 1em;
+   
+}
+
+legend{
+    text-align: center;
+}
+
+input[type=text]{
+    width: 60%;
+    height: 23px;
+}
+textarea{
+    width: 500px;
+    height: 200px;
+}
+
